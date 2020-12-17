@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p><b>Congratulations!</b></p>
+        <script>
+           var rand=Math.floor((Math.random()*10)+1);
+           var input=window.prompt('Please guess a number between 1-10')
+
+           
+           function g1(rand){
+            window.prompt('Please guess again')
+           }
+           
+           while (rand!=input){g1(window.prompt('Please guess again'))}
+           if(rand==input){alert('congratulations!')}
+           
+           
+           
+        </script>
+    </body>
+</html>
